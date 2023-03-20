@@ -55,7 +55,10 @@
 .description{
     font-size: 40px;
 }
-
+.backToTop{
+    display: flex;
+    justify-content: end;
+}
 @media screen and (min-width: 1170px) and (max-width: 1750px){
     #titleText {
         font-size: 60px;
@@ -68,6 +71,10 @@
     }
     .description {
         font-size: 30px;
+    }
+    .backToTop {
+        display: flex;
+        justify-content: center;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 1170px){
@@ -83,6 +90,10 @@
     .description {
         font-size: 25px;
     }
+    .backToTop {
+        display: flex;
+        justify-content: center;
+    }
 }
 @media screen and (min-width: 0px) and (max-width: 600px){
     #titleText {
@@ -96,5 +107,9 @@
     }
     .description {
         font-size: 30px;
+    }
+    .backToTop {
+        display: flex;
+        justify-content: center;
     }
 }

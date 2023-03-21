@@ -7,6 +7,12 @@
     font-size: 40px;
     font-family: "Yoke";
 }
+
+.linkStuff {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .home {
     background: url(/Images/pochita-bg.jpg);
     background-repeat: repeat;

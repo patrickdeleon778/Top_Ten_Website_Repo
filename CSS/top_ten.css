@@ -26,9 +26,11 @@
     }
 }
 
-/* footer {
-    margin-top: auto;
-} */
+.linkStuff {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%;

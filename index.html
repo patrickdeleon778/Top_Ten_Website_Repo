@@ -17,7 +17,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto d-flex align-items-center" id="font-stuff">
+            <ul class="navbar-nav ms-auto d-flex align-items-center font-stuff" style="font-size: 40px;">
               <li class="nav-item">
                 <a class="nav-link mx-5 text-white" aria-current="page" href="#">Home</a>
               </li>
@@ -34,7 +34,7 @@
     </header>
     
 
-    <main class="d-flex justify-content-between">
+    <main>
 
         <div class="container-fluid mt-5 mb-5 ml-5 mr-5" style="max-width: 80%; background-color: #252A0A;">
           <div class="row">
@@ -42,11 +42,51 @@
               <img src="/Images/pochita-flex.png" class="img-fluid" style="max-width: 85%;">
             </div>
             <div class="col-xxl-6 d-flex justify-content-center align-items-center">
-              <p class="text-white px-4 mx-4" id="font-stuff" style="font-size: 38px;">Pochita says, This is a Top Ten Anime Opening
+              <p class="text-white px-4 mx-4 font-stuff hero-font">Pochita says, This is a Top Ten Anime Opening
                 and Ending list. Enjoy the picks of what he
                 considers the best for his little face.</p>
             </div>
           </div>
+        </div>
+
+        <div class="container-fluid" style="max-width: 60%; background-color: #252A0A;">
+          <div class="row">
+            <div class="col p-5">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/Images/pochita-dancing750.gif" class="d-block w-100 img-fluid" alt="Dancing orange thing">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/Images/pochita-spin750.gif" class="d-block w-100 img-fluid" alt="Spinning orange thing">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/Images/pochita-crying750.gif" class="d-block w-100" alt="Crying orange thing">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+                <p class="text-white m-5 font-stuff description">
+                    Pochita is here to show off his funky moves!
+                </p>
+            </div>
+        </div>
         </div>
         
     </main>
@@ -54,16 +94,18 @@
     <footer class="mt-5" style="background-color: #252A0A; position: sticky; top: 100%">
       <div class="container-fluid">
         <div class="row">
-          <div class="col d-flex justify-content-center mb-3 mt-3" id="font-stuff" style="font-size: 30px;">
-            <p class="text-align text-white mx-3">Contact Us</p>
+          <div class="col d-flex justify-content-center mb-3 mt-3 font-stuff" style="font-size: 30px;">
+            <p class="text-align text-white mx-3"><a href="https://www.youtube.com/watch?v=tdkNhNi-5vM&ab_channel=Gatoflor%3Ap" class="linkStuff">Contact Us</a></p>
             <p class="text-align text-white mx-3"><a href="https://www.youtube.com/watch?v=GZALpA0-Qcc&ab_channel=demago" class="linkStuff">&copy;Pochita</a></p>
-            <p class="text-align text-white mx-3">Terms of Service</p>
+            <p class="text-align text-white mx-3"><a href="https://www.youtube.com/watch?v=3ng1Vbuh1Fg" class="linkStuff">Terms of Service</a></p>
           </div>
         </div>
       </div>
     </footer>
     
-    
+    <!-- <audio id="myAudio" autoplay loop>
+      <source src="./Audio/The Penis (Eek!).mp3" type="audio/mpeg">
+    </audio> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>

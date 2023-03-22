@@ -3,8 +3,7 @@
     src: url(/Fonts/Yokelvision-J6yx.ttf);
 }
 
-#font-stuff {
-    font-size: 40px;
+.font-stuff {
     font-family: "Yoke";
 }
 
@@ -20,18 +19,60 @@
     margin: 0px;
     padding: 0px;
 }
-body {
+/* body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
+} */
 @media (max-width: 768px) {
-    #font-stuff {
+    .font-stuff {
         flex-direction: column;
         align-items: center;
     }
 }
   
-footer {
+/* footer {
     margin-top: auto;
+} */
+.hero-font{
+    font-size: 38px;
+}
+.description{
+    font-size: 40px;
+}
+@media screen and (min-width: 1170px) and (max-width: 1750px){
+    .hero-font{
+        font-size: 30px;
+    }
+    .description {
+        font-size: 30px;
+    }
+    .backToTop {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1170px){
+    .hero-font{
+        font-size: 30px;
+    }
+    .description {
+        font-size: 25px;
+    }
+    .backToTop {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 600px){
+    .hero-font{
+        font-size: 30px;
+    }
+    .description {
+        font-size: 20px;
+    }
+    .backToTop {
+        display: flex;
+        justify-content: center;
+    }
 }
